@@ -18,7 +18,7 @@ app.use(passport.initialize());
 // Passport config
 require("./config/passport")(passport);
 // Routes
-app.use("/routes/api/users", users);
+app.use("/api/users", users);
 
 // DB Config
 const db = require("./config/keys").mongoURI;
