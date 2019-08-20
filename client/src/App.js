@@ -32,7 +32,7 @@ if (localStorage.jwtToken) {
     store.dispatch(logoutUser());
 
     // Redirect to login
-    window.location.href = "./login";
+    window.location.href = "./:ogin";
   }
 }
 class App extends Component {
@@ -43,10 +43,10 @@ class App extends Component {
           <div className="App">
             <Navbar />
             <Route exact path="/" component={Landing} />
-            <Route exact path="/register" component={Register} />
-            <Route exact path="/login" component={Login} />
+            <Route exact path="/Register" component={Register} />
+            <Route exact path="/Login" component={Login} />
             <Switch>
-              <PrivateRoute exact path="/dashboard" component={Dashboard} />
+              <PrivateRoute exact path="/Dashboard" component={Dashboard} />
             </Switch>
           </div>
         </Router>
