@@ -20,6 +20,8 @@ require("./config/passport")(passport);
 // Routes
 app.use("/api/users", users);
 
+app.use(express.static(path.join(__dirname, “client/build”)))
+
 // DB Config
 const db = require("./config/keys").mongoURI;
 // Connect to MongoDB
