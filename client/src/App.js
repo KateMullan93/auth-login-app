@@ -32,7 +32,7 @@ if (localStorage.jwtToken) {
     store.dispatch(logoutUser());
 
     // Redirect to login
-    window.location.href = "./:ogin";
+    window.location.href = "./Login";
   }
 }
 class App extends Component {
