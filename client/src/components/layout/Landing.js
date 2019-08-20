@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 class Landing extends Component {
   render() {
     return (
@@ -7,11 +8,11 @@ class Landing extends Component {
         <div className="row">
           <div className="col s12 center-align">
             <h4>
-              <b>Hello</b> login{" "}
-              <span style={{ fontFamily: "monospace" }}>Hello</span> name
+              <b></b>
+              <span style={{ fontFamily: "monospace" }}>test</span> 
             </h4>
             <p className="flow-text grey-text text-darken-1">
-            et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+             TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
             </p>
             <br />
             <div className="col s6">
@@ -46,4 +47,5 @@ class Landing extends Component {
     );
   }
 }
+
 export default Landing;
